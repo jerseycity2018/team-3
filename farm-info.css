@@ -1,0 +1,24 @@
+body {
+    color: #7BD095;
+
+    padding: 20px;
+}
+
+.card-img-top {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .card-img-top img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+  }
+
+  .card{
+    border: 10px solid rgba(255,255,255,.5);
+  }
