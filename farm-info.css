@@ -1,7 +1,6 @@
 body {
-    color: #7BD095;
-
-    padding: 20px;
+    color: black;
+    background-color: #7BD095;
 }
 
 .card-img-top {
@@ -11,6 +10,7 @@ body {
     height: 180px;
     overflow: hidden;
     border-radius: 50%;
+    margin-bottom: 10px;
   }
   
   .card-img-top img {
@@ -20,5 +20,54 @@ body {
   }
 
   .card{
-    border: 10px solid rgba(255,255,255,.5);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-right: 10px;
+    border: 10px solid #7BD095;
+    background-color:rgba(255, 255, 255, 0.3);
   }
+
+  div.background {
+    background: url(https://breastcancer-news.com/wp-content/uploads/2018/07/shutterstock_793959790_zpsny04h5b8-1024x480.jpg);
+    border: 1px solid transparent;
+    width: 100%;
+    height: auto;
+  }
+   
+  div.transbox {
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid transparent;
+  }
+   
+  div.transbox h1 {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    font-size: 80px;
+  }
+
+  button {
+    float: right;
+	border-radius: 18px;
+	color: #fff;
+	background-color: #333;
+	padding: 10px 6px;
+    margin: 0 1%;
+    margin-button: 10px;
+	text-align: center;
+  font-family: 'Play', sans-serif;
+	text-decoration: none;
+  letter-spacing: 1px;
+	display: inline-block;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: all 0.5s;
+	width: 150px;
+  }
+
+button:hover {
+	background: #fff;
+	color: #333;
+}
