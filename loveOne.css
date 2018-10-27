@@ -1,0 +1,19 @@
+*{
+	margin:5px;
+	padding:5px;
+}
+
+body{
+	background-color: #FA8D70;
+	color: black ;
+}
+
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+a:hover{
+	color:red;
+}
