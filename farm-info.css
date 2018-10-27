@@ -1,5 +1,5 @@
 body {
-    color: white;
+    color: black;
     background-color: #7BD095;
 }
 
@@ -37,14 +37,13 @@ body {
    
   div.transbox {
     margin: 50px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid transparent;
-    opacity: 0.6;
-    filter: alpha(opacity=60); 
   }
    
   div.transbox h1 {
     margin: 5%;
     font-weight: bold;
     color: #000000;
+    font-size: 80px;
   }
