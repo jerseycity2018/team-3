@@ -15,4 +15,5 @@ for farm in farm_locations:
     distance = r.json()['routes'][0]['legs'][0]['duration']['text']
     distances[farm] = distance
 
-print(distances)
+for each in distances:
+    print(each, distance)
