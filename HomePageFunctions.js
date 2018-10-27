@@ -1,9 +1,9 @@
-var button1= document.querySelector("farm-button");
+var farmButton = Document.getElementByClass("farm-button");
 // <button>Farms At NYCHA</button>
 // button1.addEventListener("click",function(){  window.location='http://www.example.com';}
 //^^ Does the function of changes to the next slide
 $('farm-button').click(function(){
-   window.location.href='website address';
+  window.location.href='views/farm-info';
 })
 // button needs to be a picture of the farm..
 
@@ -16,10 +16,10 @@ $('farm-button').click(function(){
 // button should transfer you to the Farm Specific page which then has
 // three buttons 
 
-var button2= document.querySelector("love-button");
+var loveButton = document.querySelector(".love-button");
 // button2.addEventListener("click",function(){}
 //^^ Does the function of changes to the next slide
 
-$('love-button').click(function(){
+loveButton.click(function(){
    window.location.href='website address';
 })
