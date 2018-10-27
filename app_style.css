@@ -21,7 +21,7 @@ div {
 }
 
 .xop-left {
-	background: #9AD993;
+	background: url("https://i.imgur.com/17qb7ra.jpg");
 	background-size: cover;
 	background-position: center;
 	flex: 1;
@@ -50,7 +50,7 @@ div {
   font-family: 'Francois One', sans-serif;
 	font-size: 3rem;
 }
-.xop-button {
+.farm-button, .love-button {
 	border-radius: 2px;
 	color: #fff;
 	background-color: #333;
@@ -67,7 +67,7 @@ div {
 	width: 150px;
 }
 
-.xop-button:hover {
+.farm-button:hover, .love-button:hover {
 	background: #fff;
 	color: #333;
 }
