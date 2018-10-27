@@ -47,3 +47,27 @@ body {
     color: #000000;
     font-size: 80px;
   }
+
+  button {
+    float: right;
+	border-radius: 18px;
+	color: #fff;
+	background-color: #333;
+	padding: 10px 6px;
+    margin: 0 1%;
+    margin-button: 10px;
+	text-align: center;
+  font-family: 'Play', sans-serif;
+	text-decoration: none;
+  letter-spacing: 1px;
+	display: inline-block;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: all 0.5s;
+	width: 150px;
+  }
+
+button:hover {
+	background: #fff;
+	color: #333;
+}
