@@ -49,8 +49,8 @@ div {
   font-family: 'Francois One', sans-serif;
 	font-size: 3rem;
 }
-.xop-button {
-	border-radius: 18px;
+.farm-button, .love-button {
+	border-radius: 2px;
 	color: #fff;
 	background-color: #333;
 	padding: 10px 6px;
@@ -66,7 +66,7 @@ div {
 	width: 150px;
 }
 
-.xop-button:hover {
+.farm-button:hover, .love-button:hover {
 	background: #fff;
 	color: #333;
 }
