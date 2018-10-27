@@ -11,10 +11,11 @@
     <title>New Volunteer!</title>
 </head>
 <body>
+    <% data = [{name : "John", age : 22}, {name : "Susan", age : 35}] %>
     <div class="container">
      <header class="jumbotron">
          <div class="container">
-             <h1>Welcome To YelpCamp!</h1>
+             <h1>Registered Volunteers</h1>
              <p>View our hand-picked campgrounds from all over the world</p>
              <p>
                 <a class="btn btn-primary btn-large" href="/campgrounds/new">Add New Campground</a>
@@ -23,8 +24,10 @@
      </header>
      
      <div class="row text-center" style="display:flex; flex-wrap: wrap;">
-         <% for (var i = 0; i < Persons.length; i++) {%>
-         <h1> The name is <%= Persons[i].name; %></h1>
+         <% for (var key in data) { %>
+         <br>
+         <h1> <%= data[key].name %> - <%= data[key].age %></h1>
+         <br>
          <% } %>
          
     </div>

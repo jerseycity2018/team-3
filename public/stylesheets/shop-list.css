@@ -1,0 +1,40 @@
+body {
+    color: black;
+    background-color: #efe3d5;
+}
+
+.card{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-right: 10px;
+    border: 10px solid #efe3d5;
+    background-color:rgba(255, 255, 255, 0.3);
+    
+  }
+
+  .card-img-top {
+    width: 50%; /* you can use % */
+    height: auto;
+    margin-bottom:10px;
+  }
+
+  div.background {
+    background: url(https://riggottphoto.com/wp-content/uploads/2018/05/Product1140.jpg);
+    border: 1px solid transparent;
+    width: 100%;
+    height: auto;
+  }
+   
+  div.transbox {
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid transparent;
+  }
+   
+  div.transbox h1 {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    font-size: 50px;
+  }
