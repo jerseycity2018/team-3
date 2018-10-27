@@ -1,6 +1,8 @@
-# team-3
-# It's Rachel
-#It's Marlon
-# It's Serra 
-#Hi, its Rageeb.
-
+<h1>JP Morgan Team-3: Green City Force Web App</h1>
+<h2>Team:</h2>
+<ul>
+    <li>Rachel</li>
+    <li>Marlon<li>
+    <li>Serra</li>
+    <li>Rageeb</li>
+</ul>
