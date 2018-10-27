@@ -1,0 +1,25 @@
+body{
+	background-color: #FA8D70;
+	color: white;
+	padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.box-1{
+	background-color:rgb(255,255,255,0.3);
+	color:#fff;
+
+
+	/* Same as above */
+	padding:20px;
+
+	
+	margin:20px;
+}
+
+a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
